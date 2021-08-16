@@ -10,5 +10,5 @@ data_config:
   normalization: max  # to streamline the implementation we normalize by the max value of the zero-filled recon
   sampling_pattern: cartesian_with_os
   sens_type: espirit
-  batch_size: 10
-  base_dir: ./data/knee/  # this path has to point to the downloaded Globus data
+  batch_size: 16
+  base_dir: ./data  # this path has to point to the downloaded Globus data
